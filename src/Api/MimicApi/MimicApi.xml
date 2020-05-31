@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MimicApi</name>
+    </assembly>
+    <members>
+        <member name="M:MimicApi.V1.Controllers.PalavrasController.ObterTodas(MimicApi.Helpers.PalavraUrlQuery)">
+            <summary>
+            Operação que pega do banco de dados todas as palavras existentes.
+            </summary>
+            <param name="query">Filtros de pesquisa</param>
+            <returns>Uma lista de palavras</returns>
+        </member>
+        <member name="M:MimicApi.V1.Controllers.PalavrasController.Obter(System.Int32)">
+            <summary>
+            Operação que pega uma única palavra da base de dados
+            </summary>
+            <param name="id">Identficador da palavra</param>
+            <returns>Um objeto de palavra</returns>
+        </member>
+        <member name="M:MimicApi.V1.Controllers.PalavrasController.Cadastrar(MimicApi.V1.Models.Palavra)">
+            <summary>
+            Operação que realiza o cadastro da palavra
+            </summary>
+            <param name="palavra">Um objeto palavra</param>
+            <returns>uUm objeto palavra com seu Identificador</returns>
+        </member>
+        <member name="M:MimicApi.V1.Controllers.PalavrasController.Atualizar(System.Int32,MimicApi.V1.Models.Palavra)">
+            <summary>
+            Operação que realiza a substituição de dados de uma palavra específica
+            </summary>
+            <param name="id">Identificador da palavra a ser alterada</param>
+            <param name="palavra">Objeto palavra com os dados a ser alterado</param>
+            <returns></returns>
+        </member>
+        <member name="M:MimicApi.V1.Controllers.PalavrasController.Deletar(System.Int32)">
+            <summary>
+            Operação que desativa um palavra do sistema
+            </summary>
+            <param name="id">Identificador da palavra</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

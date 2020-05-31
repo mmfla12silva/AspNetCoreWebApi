@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Apresentação", "00-Apresentação", "{77EB4B1C-64FD-4B2B-BBFF-238F5C44EC74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MimicApi", "MimicApi\MimicApi.csproj", "{A790264F-571A-4B4C-9101-A48802DBDB12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A790264F-571A-4B4C-9101-A48802DBDB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A790264F-571A-4B4C-9101-A48802DBDB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A790264F-571A-4B4C-9101-A48802DBDB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A790264F-571A-4B4C-9101-A48802DBDB12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A790264F-571A-4B4C-9101-A48802DBDB12} = {77EB4B1C-64FD-4B2B-BBFF-238F5C44EC74}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59998D68-7F90-457D-9C4D-C7121690F719}
+	EndGlobalSection
+EndGlobal
